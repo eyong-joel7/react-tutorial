@@ -1,0 +1,15 @@
+ Hooks are a new feature in React that allows to use features without having to write a class
+ for example; the state of a component could only be used inside a class component but with 
+ hooks it is possible to use state in functional componanets as well
+ One note is that Hooks dont work inside class components - this is obvious
+ Reasons for Hooks
+ - The this keyword is a pain in the ass for developers to understand
+ - one needs to initialised methods inside the constructors 
+ - No particular way to reuse stateful components though HOC and render props 
+    address this  but you will need to restructure your component
+- the is a need to share stateful logic in a better way - Hooks comes in handy
+ - Realated code is not organized in one place
+
+ NorthWorthy Points\
+ requires React 16.8 +
+  
